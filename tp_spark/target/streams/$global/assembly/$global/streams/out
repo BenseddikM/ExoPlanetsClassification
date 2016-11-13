@@ -1,0 +1,23 @@
+[0m[[0mdebug[0m] [0mCalculate mappings...[0m
+[0m[[0minfo[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0minfo[0m] [0mMerging files...[0m
+[0m[[0minfo[0m] [0mSHA-1: 9347796d48dba48e17c24b2305bf43fbcd0cbfb7[0m
+[0m[[0minfo[0m] [0mPackaging /Users/Bense/Documents/Exercices/Spark/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/Job$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Bense/Documents/Exercices/Spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/502ba3954b7043bc20dae399592a7bc7b0b439e4_dir/com/sparkProject/Job$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/Job$$anonfun$udf_sum$1$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Bense/Documents/Exercices/Spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/502ba3954b7043bc20dae399592a7bc7b0b439e4_dir/com/sparkProject/Job$$anonfun$udf_sum$1$1.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/Job$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Bense/Documents/Exercices/Spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/502ba3954b7043bc20dae399592a7bc7b0b439e4_dir/com/sparkProject/Job$.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/Job.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Bense/Documents/Exercices/Spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/502ba3954b7043bc20dae399592a7bc7b0b439e4_dir/com/sparkProject/Job.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/JobML$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Bense/Documents/Exercices/Spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/502ba3954b7043bc20dae399592a7bc7b0b439e4_dir/com/sparkProject/JobML$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/JobML$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Bense/Documents/Exercices/Spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/502ba3954b7043bc20dae399592a7bc7b0b439e4_dir/com/sparkProject/JobML$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/JobML$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Bense/Documents/Exercices/Spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/502ba3954b7043bc20dae399592a7bc7b0b439e4_dir/com/sparkProject/JobML$.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/JobML.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/Bense/Documents/Exercices/Spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/502ba3954b7043bc20dae399592a7bc7b0b439e4_dir/com/sparkProject/JobML.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
