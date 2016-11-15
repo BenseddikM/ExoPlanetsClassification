@@ -36,7 +36,7 @@ The importance of regularization is controlled by a hyper-parameter of the model
 
 We have the confusion Matrix and the score :
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/score.png" alt="Score" height="300" width="550""/>
+  <img src="https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/score.png" alt="Score" height="250" width="400""/>
 </p>
 
 
