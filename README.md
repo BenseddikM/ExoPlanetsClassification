@@ -35,10 +35,17 @@ The importance of regularization is controlled by a hyper-parameter of the model
 
 
 We have the confusion Matrix and the score :
-<p align="center">
-  <img src="https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/score.png" alt="Score" height="200" width="500""/>
-</p>
 
+<center>
+
+| Labels 	| Predictions 	| Count 	|
+|--------	|-------------	|-------	|
+| 1.0    	| 1.0         	| 238   	|
+| 0.0    	| 1.0         	| 10    	|
+| 1.0    	| 0.0         	| 10    	|
+| 0.0    	| 0.0         	| 360   	|
+
+</center>
 
 ## Built With
 * **IntelliJ IDE** : IDE which allows us to develop data science projects.
