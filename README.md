@@ -8,7 +8,7 @@ A Practical work project for Telecom ParisTech's Big Data program. Classificatio
 **Context** :  Exoplanets are planets rotating around other stars than the Sun. Their study allows us to better understand how the solar system was formed, and a fraction of them could be conducive to the development of extraterrestrial life.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/luminosity_curve.png" alt="Luminosity curve" style="width: 200px;"/>
+  <img src="https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/luminosity_curve.png" alt="Luminosity curve" height="150" width="150""/>
 </p>
 
 They are detected in two steps:
@@ -30,7 +30,7 @@ The importance of regularization is controlled by a hyper-parameter of the model
 * Select the grid point where the validation error is the lowest i.e. where the model best learned. The values of hyper-parameters of this point are then kept.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/imageSplit.png" alt="Luminosity curve" height="42" width="42""/>
+  <img src="https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/imageSplit.png" alt="Luminosity curve" height="150" width="150""/>
 </p>
 
 
