@@ -1,4 +1,5 @@
 # ExoPlanetsClassification
+---
 A Practical work project for Telecom ParisTech's Big Data program. Classification of Exo Planets using Spark/Logistic Regression and Lasso Penalisation.
 
 ## Synopsis
@@ -6,8 +7,9 @@ A Practical work project for Telecom ParisTech's Big Data program. Classificatio
 
 **Context** :  Exoplanets are planets rotating around other stars than the Sun. Their study allows us to better understand how the solar system was formed, and a fraction of them could be conducive to the development of extraterrestrial life.
 
-[ImageKepler]: http://www.nasa.gov/sites/default/files/aas2010-1wblightcurves2-full.jpg "Detecting ExoPlanets using Transit Light with kepler."
-![alt text][ImageKepler]
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/luminosity_curve.png" alt="Luminosity curve" style="width: 200px;"/>
+</p>
 
 They are detected in two steps:
 * A *Satellite* (Kepler) observes the stars and marks those whose luminosity curve shows a "hollow", which could indicate that a planet has passed (part of the light emitted by the star being obscured by the passage of the planet). This method of "transit" allows us to define candidate exoplanets, and to deduce the characteristics that the planet would have if it really existed (distance to its star, diameter, shape of its orbit, etc.).
@@ -27,9 +29,12 @@ The importance of regularization is controlled by a hyper-parameter of the model
 * At each point of the grid, separate the training set into a training set (70%) and a validation set (30%). Train a model on the training set and calculate the model error on the validation set.
 * Select the grid point where the validation error is the lowest i.e. where the model best learned. The values of hyper-parameters of this point are then kept.
 
-[ImageSplit]: https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/imageSplit.png "Spliting the data."
-![alt text][ImageSplit]
+![ImageSplit](https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/imageSplit.png =100x20)
+![][ImageSplit]
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/imageSplit.png" alt="Luminosity curve" style="width: 200px;"/>
+</p>
 
 
 ## Built With
@@ -68,6 +73,7 @@ Users/Bense/Documents/cleanedDataFrame.csv
 ```
 
 **Final command** :
+
 ```
 ./spark-submit --conf spark.eventLog.enabled=true --conf spark.eventLog.dir="/tmp" --driver-memory 3G --executor-memory 4G --class com.sparkProject.JobML /Users/Bense/Documents/Exercices/Spark/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar Users/Bense/Documents/cleanedDataFrame.csv /Users/Bense/Desktop/stars.model
 ```
