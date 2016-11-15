@@ -34,6 +34,12 @@ The importance of regularization is controlled by a hyper-parameter of the model
 </p>
 
 
+We have the confusion Matrix and the score :
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/score.png" alt="Score" height="300" width="550""/>
+</p>
+
+
 ## Built With
 * **IntelliJ IDE** : IDE which allows us to develop data science projects.
 * **Spark**  : Maching Learning Framework we used. (most from ML library).
