@@ -30,7 +30,7 @@ The importance of regularization is controlled by a hyper-parameter of the model
 * Select the grid point where the validation error is the lowest i.e. where the model best learned. The values of hyper-parameters of this point are then kept.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/imageSplit.png" alt="Luminosity curve" style="width: 200px;"/>
+  <img src="https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/imageSplit.png" alt="Luminosity curve" height="42" width="42""/>
 </p>
 
 
@@ -41,7 +41,7 @@ The importance of regularization is controlled by a hyper-parameter of the model
 
 ## Contributors :
 * [Mohammed BENSEDDIK](https://github.com/BenseddikM)
-* [Sami Berguaoui](https://github.com/Sbargaoui)
+* [Sami BARGAOUI](https://github.com/Sbargaoui)
 
 ## How to run
 
