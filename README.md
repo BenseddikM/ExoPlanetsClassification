@@ -8,7 +8,7 @@ A Practical work project for Telecom ParisTech's Big Data program. Classificatio
 **Context** :  Exoplanets are planets rotating around other stars than the Sun. Their study allows us to better understand how the solar system was formed, and a fraction of them could be conducive to the development of extraterrestrial life.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/luminosity_curve.png" alt="Luminosity curve" height="350" width="350""/>
+  <img src="https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/luminosity_curve.png" alt="Luminosity curve" height="400" width="550""/>
 </p>
 
 They are detected in two steps:
