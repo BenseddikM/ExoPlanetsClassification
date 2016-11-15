@@ -53,7 +53,9 @@ sbt assembly
 **Running the project**
 * Initial spark-submit command :
 ```
-./spark-submit --conf spark.eventLog.enabled=true --conf spark.eventLog.dir="/tmp" --driver-memory 3G --executor-memory 4G --class com.sparkProject.JobML /Users/Bense/Documents/Exercices/Spark/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar
+./spark-submit --conf spark.eventLog.enabled=true --conf spark.eventLog.dir="/tmp"  
+--driver-memory 3G --executor-memory 4G --class com.sparkProject.JobML  
+/Users/Bense/Documents/Exercices/Spark/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar
 ```
 *- Note that we run the job "JobMl" here, there is another job in the project repository named "Job", that cleans the initial data.*
 
@@ -72,5 +74,8 @@ Users/Bense/Documents/cleanedDataFrame.csv
 **Final command** :
 
 ```
-./spark-submit --conf spark.eventLog.enabled=true --conf spark.eventLog.dir="/tmp" --driver-memory 3G --executor-memory 4G --class com.sparkProject.JobML /Users/Bense/Documents/Exercices/Spark/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar Users/Bense/Documents/cleanedDataFrame.csv /Users/Bense/Desktop/stars.model
+./spark-submit --conf spark.eventLog.enabled=true --conf spark.eventLog.dir="/tmp"  
+--driver-memory 3G --executor-memory 4G --class com.sparkProject.JobML  
+/Users/Bense/Documents/Exercices/Spark/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar  
+Users/Bense/Documents/cleanedDataFrame.csv /Users/Bense/Desktop/stars.model
 ```
