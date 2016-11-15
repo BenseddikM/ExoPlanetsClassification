@@ -45,10 +45,12 @@ We have the confusion Matrix and the score :
 | 1.0    	| 0.0         	| 10    	|
 | 0.0    	| 0.0         	| 360   	|
 
+</center>
+
 ```
 The score is : 0.966325196163906
 ```
-</center>
+
 
 ## Built With
 * **IntelliJ IDE** : IDE which allows us to develop data science projects.
