@@ -1,11 +1,11 @@
 # ExoPlanetsClassification
 ---
-A Practical work project for Telecom ParisTech's Big Data program. Classification of Exo Planets using Spark/Logistic Regression and Lasso Penalisation.
+A practical work project for Telecom ParisTech's Big Data program. Classification of Exo Planets using SparkML's/Logistic Regression and Lasso Penalization.
 
 ## Synopsis
-**Goal**  : Realize a Binary Classifier of exoplanets labeled "confirmed" or "false-positive".
+**Goal**  : Create a Binary classifier for exoplanets labeled "confirmed" or "false-positive".
 
-**Context** :  Exoplanets are planets rotating around other stars than the Sun. Their study allows us to better understand how the solar system was formed, and a fraction of them could be conducive to the development of extraterrestrial life.
+**Context** : Exoplanets are planets rotating around other stars than the sun. This study allows us to better understand how the solar system was formed, and a fraction of them could be conductive to the development of extraterrestrial life.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/BenseddikM/ExoPlanetsClassification/master/luminosity_curve.png" alt="Luminosity curve" height="300" width="450""/>
@@ -48,13 +48,13 @@ We have the confusion Matrix and the score :
 </center>
 
 ```
-The score is : 0.966325196163906
+The obtained score is : 0.966325196163906
 ```
 
 
 ## Built With
 * **IntelliJ IDE** : IDE which allows us to develop data science projects.
-* **Spark**  : Maching Learning Framework we used. (most from ML library).
+* **Spark 2.0.0**  : Maching Learning Framework we used. (most from ML library).
 * **Scala** : Programmation Language we used with Spark.
 
 ## Contributors :
@@ -78,7 +78,7 @@ sbt assembly
 *- Note that we run the job "JobMl" here, there is another job in the project repository named "Job", that cleans the initial data.*
 
 Add two parameters :
-* First one would be the path of the cleanedData (also present in the repository), for my case :
+* First one would be the path of the cleanedData (also present in the repository), for our case :
 
 ```
 Users/Bense/Documents/cleanedDataFrame.csv
@@ -97,3 +97,4 @@ Users/Bense/Documents/cleanedDataFrame.csv
 /Users/Bense/Documents/Exercices/Spark/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar  
 Users/Bense/Documents/cleanedDataFrame.csv /Users/Bense/Desktop/stars.model
 ```
+Thus we obtain the computed score and the confusion matrix.
